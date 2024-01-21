@@ -1,12 +1,8 @@
 # PlusvalueHarmonyHub
 ![Ejemplo de Imagen](images/plusharmony.jpg)
 
-
-Aplicación en Python que muestra la diferencia de la tasa de plusvalia, de ganancia, acumulación de capital y ciclos del capital entre una empresa a insertar y la economia española
-
 ## Descripción
-
-Breve descripción de la aplicación y su propósito.
+Aplicación en Python que muestra la diferencia de la tasa de plusvalia, de ganancia, acumulación de capital y ciclos del capital entre una empresa a insertar y la economia española
 
 ## Requisitos Previos
 
@@ -15,3 +11,35 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las dependencia
 ```bash
 pip install -r requirements.txt
 ```
+## Instrucciones de Uso
+
+### Clona el Repositorio:
+
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+```
+
+### Accede al Directorio del Proyecto:
+
+```bash
+cd nombre_de_tu_proyecto
+```
+
+### Ejecuta la Aplicación:
+
+```bash
+python nombre_del_script.py
+```
+### Completa el Formulario:
+
+- Aprovisionamientos: Valor en miles.
+- Amortizaciones: Valor en miles.
+- Impuestos: Valor en miles.
+- Capital Variable: Valor en miles.
+- Producción: Valor en miles.
+- Excel Data: Archivo Excel con datos (asegúrate de tener el formato correcto).
+
+### Revisa los Resultados:
+
+Observa los resultados y la comparación entre los valores insertados y los del archivo Excel.
+
