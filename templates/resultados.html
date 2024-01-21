@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+</head>
+<body>
+    <h1>Resultados</h1>
+    
+    <p>Plusvalía: {{ resultados.plusvalia }}</p>
+    <p>Tasa de Plusvalía: {{ 100*resultados.tasa_plusvalia }}</p>
+    <p>Tasa de Ganancia: {{ 100*resultados.tasa_ganancia }}</p>
+    <p>Acumulación de Capital: {{ resultados.acumulacion_capital }}</p>
+    <p>Ciclos: {{ resultados.ciclos }}</p>
+
+    <!-- Mostrar la imagen -->
+    <img src="data:image/png;base64, {{ resultados.grafica_base64 }}" alt="Gráfica">
+
+</body>
+</html>
