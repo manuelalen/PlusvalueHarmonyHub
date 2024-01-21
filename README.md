@@ -28,7 +28,7 @@ cd nombre_de_tu_proyecto
 ### Ejecuta la Aplicación:
 
 ```bash
-python nombre_del_script.py
+python app.py
 ```
 ### Completa el Formulario:
 
