@@ -30,6 +30,8 @@ cd nombre_de_tu_proyecto
 ```bash
 python app.py
 ```
+
+Esto te abrirá el puerto 5000 en localhost. El formulario podrá ser visitado en ```http://localhost:5000```
 ### Completa el Formulario:
 
 - Aprovisionamientos: Valor en miles.
